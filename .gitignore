@@ -1,0 +1,26 @@
+# 忽略生成的大型数据文件
+analysis_dataset_python.csv
+demo_cleaned_dataset.csv
+descriptive_statistics_python.csv
+
+# 忽略Stata输出文件
+*.dta
+*.log
+*.smcl
+
+# 忽略临时文件
+/tmp/
+.DS_Store
+*.tmp
+*.temp
+
+# 忽略Python缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 忽略编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
